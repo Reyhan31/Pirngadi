@@ -120,3 +120,71 @@ Route::get('/hitsmartoperation', function () {
 Route::get('/hitvirtuallization', function () {
     return view('hitvirtuallization');
 });
+
+Route::get('/manageappndev', function () {
+    return view('manageappndev');
+});
+
+Route::get('/managedesktop', function () {
+    return view('managedesktop');
+});
+
+Route::get('/manageinfrastructure', function () {
+    return view('manageinfrastructure');
+});
+
+Route::get('/manageondemandtest', function () {
+    return view('manageondemandtest');
+});
+
+Route::get('/manageprint', function () {
+    return view('manageprint');
+});
+
+Route::get('/manageprovider', function () {
+    return view('manageprovider');
+});
+
+Route::get('/manageservice', function () {
+    return view('manageservice');
+});
+
+Route::get('/modernworkspaceandadop', function () {
+    return view('modernworkspaceandadop');
+});
+
+Route::get('/oracletohadoop', function () {
+    return view('oracletohadoop');
+});
+
+Route::get('/productconductorexp', function () {
+    return view('productconductorexp');
+});
+
+Route::get('/sapdataoffload', function () {
+    return view('sapdataoffload');
+});
+
+Route::get('/securityconsulting', function () {
+    return view('securityconsulting');
+});
+
+Route::get('/securityinfo', function () {
+    return view('securityinfo');
+});
+
+Route::get('/securitymanage', function () {
+    return view('securitymanage');
+});
+
+Route::get('/securityperimeter', function () {
+    return view('securityperimeter');
+});
+
+Route::get('/securityservice', function () {
+    return view('securityservice');
+});
+
+Route::get('/securityuser', function () {
+    return view('securityuser');
+});
