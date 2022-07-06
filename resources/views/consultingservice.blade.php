@@ -37,7 +37,7 @@
               <h5 class="mt-5 mb-1 text-center">Financial Services</h5>
               <hr />
               <div class="list-unstyled mb-4">Enabling responsiveness to digital transformation in the financial markets.</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/consulfinance" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -46,7 +46,7 @@
               <h5 class="mt-5 mb-1 text-center">Consulting and Advisory Services</h5>
               <hr />
               <div class="list-unstyled mb-4">Assist your business needs with our experts</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/consuladvisory" class="btn btn-danger">See More</a>
             </div>
           </div>
         

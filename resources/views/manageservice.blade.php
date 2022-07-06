@@ -38,7 +38,7 @@
                 <h5 class="mt-5 mb-1 text-center">Application and Developement Services</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Support and maintenance to enhance your Application Performance and Efficiency</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/manageappndev" class="btn btn-danger">See More</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -47,7 +47,7 @@
                 <h5 class="mt-5 mb-1 text-center">Desktop Management Services</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Provides end-to-end solution that enables a stable and secure working environment.</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/managedesktop" class="btn btn-danger">See More</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -56,7 +56,7 @@
                 <h5 class="mt-5 mb-1 text-center">Managed Infrastructure Services</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Help you to have the right solution to support your IT Infrastructure environment.</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/manageinfrastructure" class="btn btn-danger">See More</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -65,7 +65,7 @@
                 <h5 class="mt-5 mb-1 text-center">Managed Service Provider</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Focus on your IT Strategic Business, take care your whole IT Operation in one solution.</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/manageprovider" class="btn btn-danger">See More</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -74,7 +74,7 @@
                 <h5 class="mt-5 mb-1 text-center">Managed Print Services</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Maintain Company Printing Environment to be more productive and efficient.</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/manageprint" class="btn btn-danger">See More</a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -83,7 +83,7 @@
                 <h5 class="mt-5 mb-1 text-center">On Demand Testing Services</h5>
                 <hr />
                 <div class="list-unstyled mb-4">Deliver Testing Activity By Request.</div>
-                <button class="btn btn-danger">See More</button>
+                <a href="/manageondemandtest" class="btn btn-danger">See More</a>
               </div>
             </div>
           

@@ -37,7 +37,7 @@
               <h5 class="mt-5 mb-1 text-center">Business Process Application</h5>
               <hr />
               <div class="list-unstyled mb-4">Efficient business processes provide the insights needed to gain the competitive edge.</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/businessappprocess" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -46,7 +46,7 @@
               <h5 class="mt-5 mb-1 text-center">Customer Relationship Management</h5>
               <hr />
               <div class="list-unstyled mb-4">Giving you a clear overview of your customers. You can see everything in one place.</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/businessappcrm" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -55,7 +55,7 @@
               <h5 class="mt-5 mb-1 text-center">Customer Experience Journey</h5>
               <hr />
               <div class="list-unstyled mb-4">Take advantage of the opportunity created by your digital strategy</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/businessappcustjourney" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -64,7 +64,7 @@
               <h5 class="mt-5 mb-1 text-center">Business Service Management</h5>
               <hr />
               <div class="list-unstyled mb-4">Increase Efficiency, Minimum Down Time, and Sustainability on your Business</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/businessappmanageservice" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -73,7 +73,7 @@
               <h5 class="mt-5 mb-1 text-center">Enterprise Resource Planning</h5>
               <hr />
               <div class="list-unstyled mb-4">Streamline your enterprise business processes with Enterprise Resource Planning Cloud.</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/businessappenterprise" class="btn btn-danger">See More</a>
             </div>
           </div>
         

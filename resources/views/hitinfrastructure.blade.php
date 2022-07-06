@@ -41,7 +41,7 @@
             <h5 class="mt-5 mb-1 text-center">Back-up and Recovery</h5>
             <hr />
             <div class="list-unstyled mb-4">A backup system that can capture systems, programs, and data from physical and virtual machines and any hypervisor prevents lock-in to a particular style. </div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/hitbackup" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -50,7 +50,7 @@
             <h5 class="mt-5 mb-1 text-center">Virtualization</h5>
             <hr />
             <div class="list-unstyled mb-4">An approach to pooling and sharing technology resources to simplify management and increase asset use so that IT resources can more readily meet business demand.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/hitvirtuallization" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
             <h5 class="mt-5 mb-1 text-center">Smart Operation</h5>
             <hr />
             <div class="list-unstyled mb-4">Provide easier and quicker process that allow your IT staff to be more productive and focus on priority projects rather than troubleshooting daily operations.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/hitsmartoperation" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -68,7 +68,7 @@
             <h5 class="mt-5 mb-1 text-center">Infrastructure Automation</h5>
             <hr />
             <div class="list-unstyled mb-4"> Being a solution for everything from the mumps to inconsistent application deployments, it really is about one thing: going fast.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/hitinfrastructureauto" class="btn btn-danger">See More</a>
           </div>
         </div>
       

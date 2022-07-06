@@ -28,7 +28,7 @@
    <!-- navbar -->
    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container-fluid">
-        <a href="#" class="navbar-brand">
+        <a href="/" class="navbar-brand">
           <img src="img/Logo.png" alt="Logo" width="355" height="55"  
           class="d-inline-block align-top ms-lg-5" />
           <span class="hidden">LogoPT</span>
@@ -48,19 +48,19 @@
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/about">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Cloud</a></li>
-                <li><a class="dropdown-item" href="#">Big Data</a></li>
-                <li><a class="dropdown-item" href="#">Hybrid IT Infrastructure</a></li>
-                <li><a class="dropdown-item" href="#">Security</a></li>
-                <li><a class="dropdown-item" href="#">Business Application</a></li>
-                <li><a class="dropdown-item" href="#">Digital Workspace</a></li>
-                <li><a class="dropdown-item" href="#">Consulting</a></li>
-                <li><a class="dropdown-item" href="#">Managed Services</a></li>
+                <li><a class="dropdown-item" href="/cloudservice">Cloud</a></li>
+                <li><a class="dropdown-item" href="/bigdataservice">Big Data</a></li>
+                <li><a class="dropdown-item" href="/hitinfrastructure">Hybrid IT Infrastructure</a></li>
+                <li><a class="dropdown-item" href="/securityservice">Security</a></li>
+                <li><a class="dropdown-item" href="/businessapp">Business Application</a></li>
+                <li><a class="dropdown-item" href="/digitalworkspace">Digital Workspace</a></li>
+                <li><a class="dropdown-item" href="/consultingservice">Consulting</a></li>
+                <li><a class="dropdown-item" href="/manageservice">Managed Services</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -74,7 +74,7 @@
                 <li><a class="dropdown-item" href="#">Control Power</a></li>
               </ul>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="/contactus">Contact Us</a>
               </li>
             </li>
           </ul>

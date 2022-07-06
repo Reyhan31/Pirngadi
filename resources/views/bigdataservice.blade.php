@@ -43,7 +43,7 @@
               <h5 class="mt-5 mb-1 text-center">Big Data and Analytics Consulting</h5>
               <hr />
               <div class="list-unstyled mb-4">Focus more on your business Big Data and Analytics consulting from MII</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/bigdatananalytcons" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -52,7 +52,7 @@
               <h5 class="mt-5 mb-1 text-center">Oracle to Hadoop Data Migration</h5>
               <hr />
               <div class="list-unstyled mb-4">Help increasing your efficiency with oracle to Hadoop Data Migration Services</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="oracletohadoop" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -61,7 +61,7 @@
               <h5 class="mt-5 mb-1 text-center">SAP Data Offloading & Archiving to Hadoop</h5>
               <hr />
               <div class="list-unstyled mb-4">Get more benefit from your SAP investment with big-data integration</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="sapdataoffload" class="btn btn-danger">See More</a>
             </div>
           </div>
         

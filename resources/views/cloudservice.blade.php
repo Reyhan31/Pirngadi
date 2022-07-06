@@ -40,7 +40,7 @@
               <h5 class="mt-5 mb-1 text-center">Cloud Migration and Provisioning Services</h5>
               <hr />
               <div class="list-unstyled mb-4">Helps you to succesfully adopt cloud solution for your modern data center</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/cloudmigrationnprov" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -49,7 +49,7 @@
               <h5 class="mt-5 mb-1 text-center">Modern Workplace Adpotion Services</h5>
               <hr />
               <div class="list-unstyled mb-4">Leading expert in adopting modern workplace and office mobility for your organization</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/modernworkspaceandadop" class="btn btn-danger">See More</a>
             </div>
           </div>
         

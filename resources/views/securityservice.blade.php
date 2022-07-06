@@ -37,7 +37,7 @@
             <h5 class="mt-5 mb-1 text-center">Perimeter Security</h5>
             <hr />
             <div class="list-unstyled mb-4">Protect your web applications from any kind of attack from cyberthreats</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/securityperimeter" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -46,7 +46,7 @@
             <h5 class="mt-5 mb-1 text-center">User Security</h5>
             <hr />
             <div class="list-unstyled mb-4">Keep user information up to date and secure for the entire enterprise.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/securityuser" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -55,7 +55,7 @@
             <h5 class="mt-5 mb-1 text-center">Information Security</h5>
             <hr />
             <div class="list-unstyled mb-4">Gain a complete understanding of your security status.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/securityinfo" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -64,7 +64,7 @@
             <h5 class="mt-5 mb-1 text-center">Security Consulting</h5>
             <hr />
             <div class="list-unstyled mb-4">Detect the Undetected with Outcome Solution from the experts.</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/securityconsulting" class="btn btn-danger">See More</a>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
@@ -73,7 +73,7 @@
             <h5 class="mt-5 mb-1 text-center">Manage Security</h5>
             <hr />
             <div class="list-unstyled mb-4">Improve efficiency and Delivering business outcomes</div>
-            <button class="btn btn-danger">See More</button>
+            <a href="/securitymanage" class="btn btn-danger">See More</a>
           </div>
         </div>
       

@@ -41,7 +41,7 @@
               <h5 class="mt-5 mb-1 text-center">Enterprise Mobility Management</h5>
               <hr />
               <div class="list-unstyled mb-4">Manage & Secure Proliferation of End User Devices & Apps</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/dwenterprisemob" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -50,7 +50,7 @@
               <h5 class="mt-5 mb-1 text-center">Virtualized Apps and Desktop to Any Devices</h5>
               <hr />
               <div class="list-unstyled mb-4">All EMM Added with Secure to Windows App Across Devices</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/dwvirtualizedapp" class="btn btn-danger">See More</a>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6">
@@ -59,7 +59,7 @@
               <h5 class="mt-5 mb-1 text-center">Modern Workplace</h5>
               <hr />
               <div class="list-unstyled mb-4">Assist your business needs with our experts with years of experience</div>
-              <button class="btn btn-danger">See More</button>
+              <a href="/dwmodernworkplace" class="btn btn-danger">See More</a>
             </div>
           </div>
         
