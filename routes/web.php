@@ -96,10 +96,14 @@ Route::get('/dwvirtualizedapp', function () {
 });
 
 Route::get('/fiturproductcart', [FiturProductCartController::class, 'index']);
+Route::post('/addCart', [FiturProductCartController::class, 'addCart']);
+Route::post('/minqty', [FiturProductCartController::class, 'minQty']);
+Route::post('/plusqty', [FiturProductCartController::class, 'plusQty']);
 
 Route::get('/fiturproduct', [FiturProductController::class, 'index']);
+Route::post('/search', [FiturProductController::class, 'filter']);
 
-Route::get('/fiturproductdetails', [FiturProductDetailsController::class, 'index']);
+Route::get('/fiturproductdetails/{id}', [FiturProductDetailsController::class, 'index']);
 
 Route::get('/hitbackup', function () {
     return view('hitbackup');
@@ -187,4 +191,16 @@ Route::get('/securityservice', function () {
 
 Route::get('/securityuser', function () {
     return view('securityuser');
+});
+
+Route::get('/send-mail', function () {
+   
+    $details = [
+        'title' => 'Mail from ItSolutionStuff.com',
+        'body' => 'This is for testing email using smtp'
+    ];
+   
+    \Mail::to('reyhan.nathanael@yahoo.com')->send(new \App\Mail\sendMail($details));
+   
+    dd("Email is Sent.");
 });

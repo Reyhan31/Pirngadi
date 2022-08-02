@@ -29,7 +29,7 @@
    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container-fluid">
         <a href="/" class="navbar-brand">
-          <img src="img/Logo.png" alt="Logo" width="355" height="55"  
+          <img src="{{ URL::asset('img/Logo.png'); }}" alt="Logo" width="355" height="55"  
           class="d-inline-block align-top ms-lg-5" />
           <span class="hidden">LogoPT</span>
           </a>
@@ -147,6 +147,7 @@
 <!-- END FOOTER -->
 
     <script src="{{ URL::asset('js/bootstrap.bundle.min.js'); }}"></script>
+    @stack("script")
     {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> --}}
   </body>
 </html>

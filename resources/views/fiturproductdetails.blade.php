@@ -25,47 +25,63 @@
             </div>
         </div>
         <div class="middle-content col-md-4 mx-auto ">
-            <h5 class="fw-bolder">Nama Product</h5>
+            <h5 class="fw-bolder">{{$product->name}}</h5>
             <p class="border-bottom border-2"> Details</p>
-            <p>Part No: </p>
-            <p>UNSPSC: </p>
-            <p>Model No:</p>
-            <p>Contractor Type: </p>
-            <p>Mfr/Brand Name: </p>
-            <p>Roll-In/Slide-In/Fixed: </p>
-            <p>Primary Voltage (AC): </p>
-            <p>Amps: </p>
-            <p>Control Voltage: </p>
-            <p>Description: </p>
-            <p>Additional Keywords: </p>
-            <p>Qty in Stock: </p>
-            <p>Price: </p>
-            <p>Etc: </p>
+            @if($product->partModelNo)
+            <p>Part/Model No: {{$product->partModelNo}}</p>
+            @endif
+            @if($product->partNo)
+            <p>Part No: {{$product->partNo}}</p>
+            @endif
+            <p>UNSPSC: {{$product->UNSPSC}}</p>
+            @if($product->modelNo)
+            <p>Model No: {{$product->modelNo}}</p>
+            @endif
+            <p>Contractor Type: {{$product->contractorType}}</p>
+            <p>Mfr/Brand Name: {{$product->brandName}}</p>
+            <p>Roll-In/Slide-In/Fixed: {{$product->rollSlideFixed}}</p>
+            <p>Primary Voltage (AC): {{$product->primaryVoltage}}</p>
+            <p>Amps: {{$product->amps}}</p>
+            <p>Control Voltage: {{$product->controlVoltage}}</p>
+            <p>Description: {{$product->desc}}</p>
+            <p>Additional Keywords: {{$product->additionalKeywords}}</p>
+            <p>Price: {{$product->price}}</p>
+            <p>Shipping Weight: {{$product->shippingWeight}}</p>
         </div>
         <div class="right-content justify-content-center col col-md-3 mb-4">
             <div class="container mt-3 border border-dark rounded pb-4">
+                <form method="POST" action="/addCart">
+                    @csrf
                 <h5 class="fw-bolder text-center row mx-auto pt-4 mb-4 ">Request Quotation</h5>
                 <div class="d-flex justify-content-center row mb-5">
-                    <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                    <input type="value" class="col-6 text-center "id="quantity" value="0">
-                    <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
+                  <button type="button" class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
+                  <input type="value" class="col-6 text-center " id="quantity" name="quantity" value="0">
+                  <button type="button" class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
                 </div>
-                <button class="btn text-center mx-auto row col-12 quotebtn" style="background-color: #A72B30; color: white;">Quote</button>
+                <input type="hidden" id="id" name="id" value={{$product->id}}>
+                <button type="submit" class="btn text-center mx-auto row col-12 quotebtn" style="background-color: #A72B30; color: white;">Quote</button>
+                </form>
             </div>
         </div>
     </div>
     <div class="bottom-content row"></div>
 </div>
-<div class="fixed-btn">
-  <button type="button" class="btn btn-danger rounded position-relative">
-    <a href="#"><i class='bx bx-cart' style='color:#ffffff'  ></i></a>
-    Quotes Cart
-    <span class="position-absolute top-0 start-100 translate-middle badge border rounded-pill bg-danger">
-      99+
-      <span class="visually-hidden">unread messages</span>
-    </span>
-  </button>
-</div>
+@if(Session::has('cart'))
+  <div class="fixed-btn">
+    <button type="button" class="btn btn-danger rounded position-relative">
+      <a href="/fiturproductcart"><i class='bx bx-cart' style='color:#ffffff'  ></i>
+        <span style='color:#ffffff'  >Quotes Cart</span>
+      <span class="position-absolute top-0 start-100 translate-middle badge border rounded-pill bg-danger">
+        {{ count(Session::get('cart')) }}
+        <span class="visually-hidden">unread messages</span>
+      </span>
+      </a>
+    </button>
+  </div>
+@endif
 </section>
 <!-- End main -->
 @endsection
+@push('script')
+<script src="{{ URL::asset('js/script.js'); }}"></script>
+@endpush

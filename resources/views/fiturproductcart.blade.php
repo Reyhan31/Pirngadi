@@ -11,165 +11,37 @@
     <div class="row">
         <h4 class="fw-bolder">Quoted Items:</h4>
         <div class="leftCart col col-8 mx-2 me-5">
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
+            @if(session('cart'))
+                @foreach(session('cart') as $id  => $details)
+                    <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
+                        <div class="col">
+                        <div class="container p-0">
+                        <div class="align-items-center mx-auto row">
+                            <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
+                            <p class="fw-bolder text-center col-9">{{$details["name"]}} - <a href="#">Part Number</a></p>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="col">
+                            <div class="container">
+                                <div class="justify-content-center row">
+                                    <form method="POST" action="/minqty" class="col-2">
+                                        @csrf
+                                        <button class="btn btn-outline-danger" id="minusbutton">-</button>
+                                        <input type="hidden" id="id" name="id" value={{$details["id"]}}>
+                                    </form>
+                                    <input type="value" class="col-6 text-center "id="quantity" value="{{$details["quantity"]}}">
+                                    <form method="POST" action="/plusqty" class="col-2">
+                                        @csrf
+                                        <button class="btn btn-outline-danger" id="plusbutton">+</button>
+                                        <input type="hidden" id="id" name="id" value={{$details["id"]}}>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="../Assets/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="../Assets/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="d-flex border border-2 mb-4 border-dark rounded align-items-center row py-3 justify-content-between">
-                <div class="col">
-                <div class="container p-0">
-                <div class="align-items-center mx-auto row">
-                    <img src="../Assets/contractor.png" class="col col-2" style="width: 70px;" alt="">
-                    <p class="fw-bolder text-center col-9">Nama Product - <a href="#">Part Number</a></p>
-                </div>
-                </div>
-                </div>
-                <div class="col">
-                    <div class="container">
-                        <div class="justify-content-center row">
-                            <button class="btn btn-outline-danger col-2" id="minusbutton" onclick="minus()">-</button>
-                            <input type="value" class="col-6 text-center "id="quantity" value="0">
-                            <button class="btn btn-outline-danger col-2 " id="plusbutton" onclick="plus()">+</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                @endforeach
+            @endif
         </div>
 
         
