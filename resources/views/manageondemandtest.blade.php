@@ -21,22 +21,23 @@
           </div>
           <div class="col-lg-5 ms-auto">
               <div class="card-effect rounded border border-danger">
-                  <form action="" class="row g-3 justify-content-center">
-                  <div class="col-md-10 mb-2 mt-5">
-                      <h5 class="fw-normal">Full name</h5>
-                      <input type="text" class="form-control border rounded" placeholder="Ex: John Doe" />
-                  </div>
+                  <form action="/send-mail-contact" method="POST" class="row g-3 justify-content-center">
+              @csrf
+              <div class="col-md-10 mb-2 mt-5">
+                  <h5 class="fw-normal">Full name</h5>
+                  <input type="text" name="fullName" class="form-control border rounded" placeholder="Ex: John Doe" />
+              </div>
               <div class="col-md-10 mb-2">
                   <h5 class="fw-normal">E-mail</h5>
-                <input type="text" class="form-control border rounded" placeholder="example@example.com" />
+                <input type="text" name="email" class="form-control border rounded" placeholder="example@example.com" />
               </div>
               <div class="col-md-10 mb-2">
                   <h5 class="fw-normal">Subject</h5>
-                <input type="text" class="form-control border rounded" placeholder="Enter Subject here" />
+                <input type="text" name="subject" class="form-control border rounded" placeholder="Enter Subject here" />
               </div>
               <div class="col-md-10 mb-2">
                   <h5 class="fw-normal">Message</h5>
-                <textarea name="" id="" cols="30" rows="5" class="form-control border rounded" placeholder="Enter Message here"></textarea>
+                <textarea name="message" id="" cols="30" rows="5" class="form-control border rounded" placeholder="Enter Message here"></textarea>
               </div>
               <div class="col-md-10 mb-5 d-grid">
                 <button class="btn btn-danger rounded">Contact</button>

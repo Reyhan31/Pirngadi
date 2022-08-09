@@ -48,10 +48,11 @@
         <div class="right-content col col-3">
             <div class="container border border-2 rounded border-dark p-4">
                 <h4 class="fw-bolder text-center">Quotation Details</h4>
-                <form action="" class="mt-4">
+                <form action="/send-mail" method="POST" class="mt-4">
+                    @csrf
                     <div class="row mb-3">
                         <label class="fw-bold form-label" for="quotationDetailsFirstName">First Name</label>
-                        <input class="col  mx-auto form-control" type="text" name="quotationDetailsFirstName" id="quotationDetailsFirstName" placeholder="Ex: John">
+                        <input class="col mx-auto form-control" type="text" name="quotationDetailsFirstName" id="quotationDetailsFirstName" placeholder="Ex: John">
                     </div>
 
                     <div class="row mb-3">

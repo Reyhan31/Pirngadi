@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FiturProductCartController;
 use App\Http\Controllers\FiturProductController;
 use App\Http\Controllers\FiturProductDetailsController;
+use App\Http\Controllers\EmailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -193,14 +194,17 @@ Route::get('/securityuser', function () {
     return view('securityuser');
 });
 
-Route::get('/send-mail', function () {
+// Route::get('/send-mail', function () {
    
-    $details = [
-        'title' => 'Mail from ItSolutionStuff.com',
-        'body' => 'This is for testing email using smtp'
-    ];
+//     $details = [
+//         'title' => 'Mail from ItSolutionStuff.com',
+//         'body' => 'This is for testing email using smtp'
+//     ];
    
-    \Mail::to('reyhan.nathanael@yahoo.com')->send(new \App\Mail\sendMail($details));
+//     \Mail::to('reyhan.nathanael@yahoo.com')->send(new \App\Mail\sendMail($details));
    
-    dd("Email is Sent.");
-});
+//     dd("Email is Sent.");
+// });
+
+Route::post('/send-mail', [EmailController::class, 'index']);
+Route::post('/send-mail-contact', [EmailController::class, 'email']);
