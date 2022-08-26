@@ -7,12 +7,10 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class sendMail extends Mailable
+class serviceMail extends Mailable
 {
     use Queueable, SerializesModels;
-
     public $details;
-
     /**
      * Create a new message instance.
      *
@@ -30,7 +28,7 @@ class sendMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Product quote items from '.$this->details['firstName'])
-                    ->view('email.myMail');
+        return $this->subject($this->details['subject'])
+                    ->view('email.serviceEmail');
     }
 }

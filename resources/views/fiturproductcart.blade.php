@@ -6,8 +6,23 @@
 @endpush
 
 @section('content')
+
 <section>
-  <div class="container">
+    <div class="container">
+      @if(Session::has('success'))
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+              {{session('success')}}
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+      @endif
+      
+      @if(Session::has('Error'))
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          {{session('Error')}}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        @endif
+
     <div class="row">
         <h4 class="fw-bolder">Quoted Items:</h4>
         <div class="leftCart col col-8 mx-2 me-5">
@@ -43,7 +58,7 @@
                 @endforeach
             @endif
         </div>
-
+        
         
         <div class="right-content col col-3">
             <div class="container border border-2 rounded border-dark p-4">
@@ -63,7 +78,7 @@
                     <div class="row mb-3">
                         <label class="fw-bold form-label" for="quotationDetailsEmailAddress">Email Address</label>
                         <input class="col  mx-auto form-control" type="email" name="quotationDetailsEmailAddress" id="quotationDetailsEmailAddress" placeholder="Ex: example@example.com">
-                        </div>
+                    </div>
 
                     <div class="row mb-3">
                         <label class="fw-bold form-label" for="quotationDetailsPhoneNumber">Phone Number</label>
