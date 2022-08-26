@@ -33,20 +33,45 @@
             @if($product->partNo)
             <p>Part No: {{$product->partNo}}</p>
             @endif
+            @if($product->UNSPSC)
             <p>UNSPSC: {{$product->UNSPSC}}</p>
+            @endif
             @if($product->modelNo)
             <p>Model No: {{$product->modelNo}}</p>
             @endif
+            @if($product->type)
+            <p>Type: {{$product->type}}</p>
+            @endif
+            @if($product->contractorType)
             <p>Contractor Type: {{$product->contractorType}}</p>
+            @endif
+            @if($product->brandName)
             <p>Mfr/Brand Name: {{$product->brandName}}</p>
+            @endif
+            @if($product->rollSlideFixed)
             <p>Roll-In/Slide-In/Fixed: {{$product->rollSlideFixed}}</p>
+            @endif
+            @if($product->primaryVoltage)
             <p>Primary Voltage (AC): {{$product->primaryVoltage}}</p>
+            @endif
+            @if($product->amps)
             <p>Amps: {{$product->amps}}</p>
+            @endif
+            @if($product->controlVoltage)
             <p>Control Voltage: {{$product->controlVoltage}}</p>
+            @endif
+            @if($product->desc)
             <p>Description: {{$product->desc}}</p>
+            @endif
+            @if($product->additionalKeywords)
             <p>Additional Keywords: {{$product->additionalKeywords}}</p>
+            @endif
+            @if($product->price)
             <p>Price: {{$product->price}}</p>
+            @endif
+            @if($product->shippingWeight)
             <p>Shipping Weight: {{$product->shippingWeight}}</p>
+            @endif
         </div>
         <div class="right-content justify-content-center col col-md-3 mb-4">
             <div class="container mt-3 border border-dark rounded pb-4">

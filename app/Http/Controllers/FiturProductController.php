@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 class FiturProductController extends Controller
 {
-    public function index(){
-        $product = Product::paginate(9);
+    public function index($category){
+        $product = Product::where("category", $category)->paginate(9);
         return view('fiturproduct', compact('product'));
     }
 

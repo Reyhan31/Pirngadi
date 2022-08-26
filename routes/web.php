@@ -101,7 +101,7 @@ Route::post('/addCart', [FiturProductCartController::class, 'addCart']);
 Route::post('/minqty', [FiturProductCartController::class, 'minQty']);
 Route::post('/plusqty', [FiturProductCartController::class, 'plusQty']);
 
-Route::get('/fiturproduct', [FiturProductController::class, 'index']);
+Route::get('/product/{category}', [FiturProductController::class, 'index']);
 Route::post('/search', [FiturProductController::class, 'filter']);
 
 Route::get('/fiturproductdetails/{id}', [FiturProductDetailsController::class, 'index']);

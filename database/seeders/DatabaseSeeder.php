@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         // ]);
 
         $this->call(productSeeder::class);
+        $this->call(equipmentDetail::class);
     }
 }

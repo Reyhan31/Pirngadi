@@ -66,12 +66,12 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Contactors</a></li>
-                <li><a class="dropdown-item" href="#">Starters</a></li>
-                <li><a class="dropdown-item" href="#">Parts</a></li>
-                <li><a class="dropdown-item" href="#">Isolation Switchers</a></li>
-                <li><a class="dropdown-item" href="#">Equipement</a></li>
-                <li><a class="dropdown-item" href="#">Control Power</a></li>
+                <li><a class="dropdown-item" href="/product/Contractors">Contactors</a></li>
+                <li><a class="dropdown-item" href="/product/Starters">Starters</a></li>
+                <li><a class="dropdown-item" href="/product/Parts">Parts</a></li>
+                <li><a class="dropdown-item" href="/product/IsolationSwitch">Isolation Switchers</a></li>
+                <li><a class="dropdown-item" href="/product/Equipment">Equipment</a></li>
+                <li><a class="dropdown-item" href="/product/ControlPower">Control Power</a></li>
               </ul>
               <li class="nav-item">
                 <a class="nav-link" href="/contactus">Contact Us</a>

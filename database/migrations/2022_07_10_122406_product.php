@@ -16,9 +16,11 @@ return new class extends Migration
         Schema::create('product', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('partModelNo')->nullable();
+            $table->string('category');
+            $table->string('partModelNo', 400)->nullable();
             $table->string('partNo')->nullable();
             $table->string('modelNo')->nullable();
+            $table->string('type')->nullable();
             $table->string('UNSPSC')->nullable();
             $table->string('contractorType')->nullable();
             $table->string('brandName')->nullable();
