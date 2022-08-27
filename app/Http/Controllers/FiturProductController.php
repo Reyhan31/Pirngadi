@@ -11,22 +11,13 @@ class FiturProductController extends Controller
         $product = Product::where("category", $category)
                     ->when(request('brandName'), function ($q) {
                         return $q->where('brandName', 'LIKE', request('brandName'));
-                })->paginate(9);
+                })
+                    ->when(request('sort'), function ($q) {
+                        return $q->orderBy('name', request('sort'));
+                })
+                ->paginate(9)->withQueryString();
 
-        // if ($request->get('brandName')) {
-        //     $brandName = $request->brandName;
-        //     // dd($brandName);
-        //     $product->where('brandName', 'LIKE' , '%'.$brandName.'%');
-        // }
-
-        // $product->paginate(9);
-        // $brandName = $request->brandName;
-        // $product = Product::where("category", $category)->where('brandName', 'LIKE' , '%'.$brandName.'%');
-        // $product->paginate(9)->withQueryString();
-        // dd($product);
-        return view('fiturproduct', compact('product'));
-    }
-
-    public function clear(){
+        $brand = Product::distinct()->where([["category", $category],['brandName', 'NOT LIKE', ""]])->get(['brandName']);
+        return view('fiturproduct', compact('product', 'brand'));
     }
 }

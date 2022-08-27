@@ -20,7 +20,15 @@
                     <label class="fw-bold fs-6">Brand name</label>
                       <select class="form-select mb-4" name="brandName">
                           <option selected value="">--Select</option>
-                          <option value="General Electric">General Electric</option>
+                          @foreach($brand as $b)
+                          <option value="{{$b->brandName}}" {{ request('brandName') === $b->brandName ? 'selected' : null }}>{{$b->brandName}}</option>
+                          @endforeach
+                      </select>
+                      <label class="fw-bold fs-6">Sort</label>
+                      <select class="form-select mb-4" name="sort">
+                          <option selected value="">--Select</option>
+                          <option {{ request('sort') === "ASC" ? 'selected' : null }} value="ASC">Ascending</option>
+                          <option {{ request('sort') === "DESC" ? 'selected' : null }} value="DESC">Descending</option>
                       </select>
                     <div class="container mb-5">
                         <div class="row">
