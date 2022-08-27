@@ -307,7 +307,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "SL72S4H3L",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/SL72S-090216-2_back (1).jpg"
             ],
             [
                 "name" => "SLN - (200-400 Amp)",
@@ -370,7 +370,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/SJA50VW430-070714-2.jpg"
             ],
             [
                 "name" => "SJA-25 - 720 Amp",
@@ -643,7 +643,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "0482X0176R01-A02",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/IC-302CB4-121708-1 slider.jpg"
             ],
             [
                 "name" => "IC-2814-2 - 400 Amp",
@@ -1252,7 +1252,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "F.O. 1625018A",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/8110-V3540G-052317-3 (1).jpg"
             ],
             [
                 "name" => "8110 Type :  F2 - 360 Amp",
@@ -1273,7 +1273,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "8110F2",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/8110 F2.jpg"
             ],
             [
                 "name" => "8110-A - 360 Amp",
@@ -1357,7 +1357,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/8110-V3540G-vacuum.jpg"
             ],
             [
                 "name" => "8110-DO-9 -360 Amp",
@@ -1399,7 +1399,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "51033-109-50",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/retrofit.jpg"
             ],
             [
                 "name" => "HCV - 400 Amp",
@@ -1588,7 +1588,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "88 pounds",
-                "image" => ""
+                "image" => "img/product/Contactors/CV211-JAT-101216-1 (1).jpg"
             ],
             [
                 "name" => "CV451J - 450 Amp",
@@ -1630,7 +1630,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "DF-325M, DF-325M000",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/DF-700amp.jpg"
             ],
             [
                 "name" => "SJA-50 - 360 Amp",

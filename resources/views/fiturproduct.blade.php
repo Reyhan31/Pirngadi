@@ -9,33 +9,26 @@
 <section>
 
   <div class="container">
-    <form method="POST" action="/search">
-      @csrf
     <div class="main-content mx-auto">
         
         <div class="row">
             {{-- filter --}}
             <div class="col col-3  ">
                 <div class="align-items-center border border-2 border-dark rounded p-3 mt-4">
-
+                  <form method="GET">
                     <p class="fw-bolder fs-6 mb-3">Search Contractors by:</p>
-                    <label class="fw-bold fs-6">Type</label>
-                      <select class="form-select mb-4">
-                          <option selected value=""disabled>--Select</option>
+                    <label class="fw-bold fs-6">Brand name</label>
+                      <select class="form-select mb-4" name="brandName">
+                          <option selected value="">--Select</option>
+                          <option value="General Electric">General Electric</option>
                       </select>
-
-                    <label class="fw-bold fs-6">Model Number</label>
-                      <select class="form-select mb-4">
-                          <option selected value=""disabled>--Select</option>
-                      </select>
-
                     <div class="container mb-5">
                         <div class="row">
-                            <button class="col btn btn-sm btn-outline-secondary me-5">Search</button>
-                            <button class="col btn btn-sm btn-outline-secondary">Clear</button>
+                            <button type="submit" class="col btn btn-sm btn-outline-secondary me-5">Search</button>
+                            <a class="col btn btn-sm btn-outline-secondary" href="{{ request()->url() }}">Clear</a>
                         </div>
                     </div>
-
+                  </form>
                 </div>
             </div>
             {{-- product --}}
@@ -59,10 +52,7 @@
             </div>
 
         </div>
-
-
     </div>
-    </form>
   </div>
   
   
