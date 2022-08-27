@@ -163,7 +163,7 @@ class productSeeder extends Seeder
                 "image" => "img/product/Contactors/1502A4C3D1-020509-2.jpg"
             ],
             [
-                "name" => "Allen Bradley - 1502 -800 Amp",
+                "name" => "Allen Bradley - 1502 - 800 Amp",
                 "category" => "Contractors",
                 "partModelNo" => "",
                 "modelNo" => "A",
@@ -1336,7 +1336,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "8110-DO-8-B, 8110DO8",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/8110-DO-8-X2-021309-1.jpg"
             ],
             [
                 "name" => "8110-V3540G - 360 Amp",

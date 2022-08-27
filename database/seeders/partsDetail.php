@@ -55,7 +55,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "1502-A4C3D1, 1502-A4C3D2, 1502-A4C3D3, 1502-A4C3D4, 40259-127-01, 40259-283-01, 40259-283-05, 40195-172-01",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Parts\Archutes/40357-309-51.jpg"
+                "image" => "img/product/Parts/Archutes/40357-309-51.jpg"
             ],
             [
                 "name" => "Allis Chalmers 456-D 14-422-044-501",
@@ -118,7 +118,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Parts\Archutes/104B9930-G1.jpg"
+                "image" => "img/product/Parts/Archutes/104B9930-G1.jpg"
             ],
             [
                 "name" => "General Electric IC-302/IC-2814 116C9908P1",
@@ -181,7 +181,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Parts\Archutes/116C9908P3.jpg"
+                "image" => "img/product/Parts/Archutes/116C9908P3.jpg"
             ],
             [
                 "name" => "General Electric IC-2814 116C9908P3 (Old)",
@@ -223,7 +223,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Parts\Archutes/116C9908P4.jpg"
+                "image" => "img/product/Parts/Archutes/116C9908P4.jpg"
             ],
             [
                 "name" => "General Electric IC-2814 116C9908P4 (Old)",
@@ -1168,7 +1168,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "167A8898G1",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Contacts/167A8898G1__OC__front.jpg"
             ],
             [
                 "name" => 'RPC LF1" 316B948G01(400)',
@@ -1483,7 +1483,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "JN359994-Y01",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/JN359993-Y03.jpg"
             ],
             [
                 "name" => "Allis Chalmers 456-D 14-183-122",
@@ -1567,7 +1567,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "2147A48G11, 2147A48G14",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "2 pounds",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Cutler Hammer SJA SJS SJD SL (1).jpg"
             ],
             [
                 "name" => "Eaton SJ/SL 2147A48G11",
@@ -1819,7 +1819,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "1D300G144",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/MC IC302.jpg"
             ],
             [
                 "name" => "MC 7850 MC1501.12556",
@@ -2050,7 +2050,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "62D450",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/MC 1152.jpg"
             ],
             [
                 "name" => "MC LF MC651G01.12721",
@@ -2092,7 +2092,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "7S002, 1502V4C1D1, 7T001, operating, JN354859-Y01",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Mitsubishi 1502 vacuum JN354878-Y03 (1).jpg"
             ],
             [
                 "name" => "Siemens 81H3 25-131-703-501",
@@ -2113,7 +2113,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC12735, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Siemens 81H3 501,502.jpg"
             ],
             [
                 "name" => "Siemens 81H3 25-131-703-502",
@@ -2134,7 +2134,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC12940",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Siemens 81H3 501,502.jpg"
             ],
             [
                 "name" => "Siemens 3TL6 3TY5611-0AL7",
@@ -2155,7 +2155,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "3TY5651-0AL7",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Siemens 3TL6 3TY5611-0AL7 (1).jpg"
             ],
             [
                 "name" => "Siemens 3TL6 3TY5651-0AL7",
@@ -2197,7 +2197,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "C51020-056-85, MC13388.51020, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Square D 8110 Drawout Type A 51020-056-85 (1).jpg"
             ],
             [
                 "name" => "Square D 8110 Air Drawout Type : A 51033-632-50",
@@ -2218,7 +2218,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC51033-632-50.12548, C51020-056-85, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Square D 8110 Type A 51033-632-50 (1).jpg"
             ],
             [
                 "name" => "Square D 8110 Vacuum 51034-306-50",
@@ -2239,7 +2239,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC51034-306-50.12603(V), 51034-059-50",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Square D 51034-306-50 (1).jpg"
             ],
             [
                 "name" => "General Electric CR193 55D781012G2",
@@ -2260,7 +2260,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "H-4PS, 755954, 55D781008G3R, 55C679824G1",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/GE CR193 55D781012G2 (1).jpg"
             ],
             [
                 "name" => "General Electric CR193 55D781012G2 (BLK)",
@@ -2281,7 +2281,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => ". H-4PS, 755954, 55D781012G2, 55D781008G3R, 55C679824G1, Block Model For Caustic Environments",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/GE CR193 55D781012G2 Black (1).jpg"
             ],
             [
                 "name" => "General Electric CR193 55D781014G3R",
@@ -2302,7 +2302,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "55D781020G2, 55C679824-G2",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/GE CR193 55D781014G3R (1).jpg"
             ],
             [
                 "name" => "MC IC-302/IC-2814/IC-2812 MC102.12515",
@@ -2344,7 +2344,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "1D300G104",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/MC104.12919 (1).jpg"
             ],
             [
                 "name" => "MC IC-302/IC-2814/IC-2812 MC124.12538",
@@ -2365,7 +2365,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "1D300G124",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/MC124.12538 (1).jpg"
             ],
             [
                 "name" => "MC LF-50H230 MC12663.441A",
@@ -2386,7 +2386,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "441A290G01",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/LF-50H230 MC12663.441A (1).jpg"
             ],
             [
                 "name" => "MC 81H3 MC12735",
@@ -2407,7 +2407,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "25-131-703-501",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/81H3 MC12735 (1).jpg"
             ],
             [
                 "name" => "MC 81H3 MC12940",
@@ -2428,7 +2428,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "25-131-703-502",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/81H3 MC12940 (1).jpg"
             ],
             [
                 "name" => "Square D 8110 Air Drawout L6130A",
@@ -2449,7 +2449,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Square D 8110 L6130_A (1).jpg"
             ],
             [
                 "name" => "Toshiba CV452J 5F9G0045",
@@ -2470,7 +2470,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "5F9G0045P1",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Toshiba CV452J 5F9G0045 (1).jpg"
             ],
             [
                 "name" => "Toshiba DF/CV/DV/HCV 5F9GO172",
@@ -2491,7 +2491,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "PC18600P996",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/5F9GO172 (1).jpg"
             ],
             [
                 "name" => "Toshiba DF/CV/DV/HCV F-442451",
@@ -2512,7 +2512,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Toshiba DF CV DV HCV 442451 (1).jpg"
             ],
             [
                 "name" => "Toshiba DF/CV/DC/HCV PC18600P996",
@@ -2533,7 +2533,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "PC18601P020, GT-B688, 757152821293, 5F9GO172",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Toshiba DF CV DV HCV PC18600P996 (1).jpg"
             ],
             [
                 "name" => "Westinghouse LF 441A290G01",
@@ -2554,7 +2554,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC12663.441A, operating, closing, coil, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Westing LF 441A290G01 (1).jpg"
             ],
             [
                 "name" => "Westinghouse LF 658C651G01",
@@ -2575,7 +2575,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "MC651G01.12721, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Westing LF 658C651G01 (1).jpg"
             ],
             [
                 "name" => "Westinghouse LF50 660C188G01",
@@ -2596,7 +2596,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Westing LF50 660C188G01 (1).jpg"
             ],
             [
                 "name" => "AFP CR193 55C679824G1",
@@ -2617,7 +2617,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "11138F, 55D781008G3R, 55D781012G2, 55D781012G2_, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/AFP CR193 (1).jpg"
             ],
             [
                 "name" => "AFP CR193 55C679824-G2",
@@ -2638,7 +2638,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "11065, SER# 593M-19, 55D781014G3R, 55D781020G2, operating, close",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/AFP CR193 55C679824-G2 (1).jpg"
             ],
             [
                 "name" => "General Electric CR193 55D781008G3R",
@@ -2659,7 +2659,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "55C679824G1, 55D781012G2",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/General Electric CR193 55D781008G3R (1).jpg"
             ],
             [
                 "name" => "MC LF MC13112",
@@ -2680,7 +2680,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/LF MC13112_front (1).jpg"
             ],
             [
                 "name" => "Square D 8110 Air Drawout 6130A",
@@ -2701,7 +2701,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Square D 8110 Air Drawout 6130A (1).jpg"
             ],
             [
                 "name" => "Eaton SL-50 2147A58G11",
@@ -2722,7 +2722,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "114B753G01, SL72",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "4.6lbs (BOXED) pounds",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Eaton SL-50 2147A58G11 (1).jpg"
             ],
             [
                 "name" => "Allen Bradley 1502 Vacuum 80153-576-52",
@@ -2743,7 +2743,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Allen 1502 Vacuum 80153-576-52 (1).jpg"
             ],
             [
                 "name" => "General Electric 55-522003G006",
@@ -2764,7 +2764,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/General electric 55-522003G006 (1).jpg"
             ],
             [
                 "name" => "Allis Chalmers 456-D 456D Finger Cluster",
@@ -3037,7 +3037,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "700057989",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Finger Clusters/ITE 7850 700057989 (1).jpg"
             ],
             [
                 "name" => "Siemens 81H2 25-131-570-506",
@@ -3751,7 +3751,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Phase Barriers/Toshiba DV DF PC18595P627 (1).jpg"
             ],
             [
                 "name" => "Westinghouse 25L2 2147A26G11",
@@ -4192,7 +4192,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "25-154-158-005, 006602N004659",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Vacuum Bottles/Siemens 3TL6 VS6602 (1).jpg"
             ],
             [
                 "name" => "Siemens 3TL6 VS7202",
@@ -4654,7 +4654,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "VT-H1400-50",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Vacuum Bottles/Eaton XTCE750N (1).jpg"
             ],
         ]);
     }

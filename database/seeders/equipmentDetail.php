@@ -141,7 +141,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "/img/product/Equipment/Cutler Hammer/244043507-050709.jpg"
+                "image" => "img/product/Equipment/Cutler Hammer/244043507-050709.jpg"
             ],
             [
                 "name" => "Cutler-Hammer 2147A21G38",
@@ -162,7 +162,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "6445D53",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Equipment/Cutler Hammer/Cutler Hammer 2147A21G38 (1).jpg"
             ],
             [
                 "name" => "Cutler-Hammer 2147A21G36",
@@ -183,7 +183,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "/img/product/Equipment/Cutler Hammer/2147A21G36.jpg"
+                "image" => "img/product/Equipment/Cutler Hammer/2147A21G36.jpg"
             ],
             [
                 "name" => "IC1074A106C",
@@ -414,7 +414,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Equipment/Westinghouse/Westing house ADM verticle 6391D55G01 (1).jpg"
             ],
             [
                 "name" => "Westing house ADM 6391D55G02",
@@ -645,7 +645,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Equipment/Westinghouse/Westing house ADM verticle 6391D55G01 (1).jpg"
             ],
             [
                 "name" => "Westinghouse ADM 6391D55G02",
@@ -813,7 +813,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "6445D53",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Equipment/Others/2147A21G38.jpg"
+                "image" => "img/product/Equipment/Cutler Hammer/Cutler Hammer 2147A21G38 (1).jpg"
             ],
         ]);
     }

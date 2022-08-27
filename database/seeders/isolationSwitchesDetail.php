@@ -202,7 +202,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "51190, 8198",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Square D/8110-Vacuum_Isolation_Switch-120209.jpg"
             ],
             [
                 "name" => "General Electric - CR194 Isolation Switch Model - 400 Amp - 5000 Volt Isolationswitch",
@@ -307,7 +307,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Westinghouse/25LFR-2_Slide-In.jpg"
             ],
             [
                 "name" => "Westinghouse - Canadian Model - 360 Amp - 5000 Volt Isolationswitch",
@@ -328,7 +328,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "3549C03H02, 112D689G02, LFR, LFS, LFM",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Westinghouse/50LFM-4-092413-1.jpg"
             ],
             [
                 "name" => "Westinghouse - 50LFM-4(D) Model - 360 Amp - 5000 Volt Isolationswitch",
@@ -349,7 +349,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "75 pounds",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Westinghouse/50LFR-4__D_-101912-1.jpg"
             ],
             [
                 "name" => "Westinghouse - LFM50 Model - 200 Amp - 5000 Volt Isolationswitch",
@@ -392,7 +392,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Westinghouse/50LFR-4-040320.jpg"
             ],
         ]);
     }
