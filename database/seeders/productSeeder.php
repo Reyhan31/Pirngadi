@@ -181,7 +181,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/1502-800 allen bradley (1).jpg"
             ],
             [
                 "name" => "Allen Bradley - 1152 - 400 Amp",
@@ -223,7 +223,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/allis chalmers 25 118 537 501 (1).jpg"
             ],
             [
                 "name" => "Allis Chalmers - 14-514-449 Model - 400 Amp - 5000 / 2500 Volt Contactor",
@@ -244,7 +244,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "456D, 2-4470-4224-1, 14-514-449, 456D",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/allis chalmers 14 514 449  (1).jpg"
             ],
             [
                 "name" => "Allis Chalmers - 256-1 Model - 200 Amp - 5000 Volt Contactor",

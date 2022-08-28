@@ -2071,7 +2071,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "658C651G01, C400K36R",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/MC651G01.12721 (1).jpg"
             ],
             [
                 "name" => "Mitsubishi 1502 Vacuum JN354878-Y03",
@@ -2176,7 +2176,7 @@ class partsDetail extends Seeder
                 "additionalKeywords" => "3TY5611-0AL7",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Parts/Closing Coils/Siemens 3TL6 3TY5651-0AL7 (1).jpg"
             ],
             [
                 "name" => "Square D 8110 Air Drawout Type : A 51020-056-85",

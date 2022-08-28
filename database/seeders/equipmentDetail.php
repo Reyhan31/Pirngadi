@@ -204,7 +204,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "Cat# 0643X0292Q01-A01, GEH-3091 426B, Diagram 335B1464 SH.3",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Equipment/General Electrric/IC1074A106 (1).jpg"
             ],
             [
                 "name" => "IC1074B201C",
@@ -225,7 +225,7 @@ class equipmentDetail extends Seeder
                 "additionalKeywords" => "0522X0955V01C01",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Equipment/General Electrric/IC1074-B201 (1).jpg"
             ],
             [
                 "name" => "SE-100S",

@@ -307,7 +307,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Isolation Switches/Westinghouse/25LFR-2_Slide-In.jpg"
+                "image" => "img/product/Isolation Switches/Westinghouse/Wh 2085A70G10 (1).jpg"
             ],
             [
                 "name" => "Westinghouse - Canadian Model - 360 Amp - 5000 Volt Isolationswitch",
@@ -328,7 +328,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "3549C03H02, 112D689G02, LFR, LFS, LFM",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => "img/product/Isolation Switches/Westinghouse/50LFM-4-092413-1.jpg"
+                "image" => "img/product/Isolation Switches/Westinghouse/Wh canadian (1).jpg"
             ],
             [
                 "name" => "Westinghouse - 50LFM-4(D) Model - 360 Amp - 5000 Volt Isolationswitch",
@@ -349,7 +349,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "75 pounds",
-                "image" => "img/product/Isolation Switches/Westinghouse/50LFR-4__D_-101912-1.jpg"
+                "image" => "img/product/Isolation Switches/Westinghouse/Wh 50LFM-4__D_-101912-1 (1).jpg"
             ],
             [
                 "name" => "Westinghouse - LFM50 Model - 200 Amp - 5000 Volt Isolationswitch",
@@ -371,7 +371,7 @@ class isolationSwitchesDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Isolation Switches/Westinghouse/Wh LFM50 200 (1).jpg"
             ],
             [
                 "name" => "Westinghouse - 2085A72G30 Model - 360 Amp - 5000 Volt Isolationswitch",
