@@ -22,7 +22,10 @@ class EmailController extends Controller
                 'cart' => session()->get('cart'),
             ];
 
-
+        if(!$details['firstName'] || !$details['lastName'] || !$details['email'] || !$details['phoneNumber'] || !$details['companyName']){
+            return back()->with('Error', 'Please complete the details');
+        };
+        
             try {
                 \Mail::to('romiyan@pirngaditeberaukarya.web.id')->send(new \App\Mail\sendMail($details));
                 \Mail::to('corp.pirngaditeberaukarya@gmail.com')->send(new \App\Mail\sendMail($details));
