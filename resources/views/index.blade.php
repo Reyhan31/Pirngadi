@@ -14,7 +14,7 @@
 
             <h3 class="text-white my-3">Delivering Impact Throughout our Product & Services.</h3>
 
-            <a href="#" class="btn me-2 btn-danger rounded">Contact Now</a>
+            <a href="/contactus" class="btn me-2 btn-danger rounded">Contact Now</a>
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@
               </p>
             </div>
             <div class="column text-end mt-5">
-              <a href="#" class="btn me-2 btn-danger rounded">Learn More</a>
+              <a href="/about" class="btn me-2 btn-danger rounded">Learn More</a>
             </div>
           </div>
         </div>
@@ -51,80 +51,71 @@
           <div class="col-md-8 mx-auto text-center">
             <h6 class="text-danger">SERIVCES</h6>
             <h1>IT Services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
           </div>
         </div>
         <div class="row g-4">
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect1 bounceInUp">
+            <div class="service card-effect1 bounceInUp" onclick="location.href='cloudservice'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-check-shield"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Cloud Service</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect2">
+            <div class="service card-effect2" onclick="location.href='bigdataservice'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-comment-detail"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Big Data</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect3">
+            <div class="service card-effect3" onclick="location.href='securityservice'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-cog"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Security</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect4">
+            <div class="service card-effect4"onclick="location.href='hitinfrastructure'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-heart"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Hybrid IT Infrastructure</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect5">
+            <div class="service card-effect5" onclick="location.href='businessapp'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-rocket"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Business App Dev</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect6">
+            <div class="service card-effect6" onclick="location.href='digitalworkspace'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-doughnut-chart"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Digital Workspace</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect7">
+            <div class="service card-effect7" onclick="location.href='consultingservice'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-rocket"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Consulting Service</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-3">
-            <div class="service card-effect8">
+            <div class="service card-effect8" onclick="location.href='manageservice'" style="cursor:pointer;">
               <div class="iconbox mx-auto">
                 <i class="bx bxs-rocket"></i>
               </div>
               <h5 class="mt-4 mb-2 text-center text-white">Manage Service</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil perspiciatis illo asperiores perferendis</p>
             </div>
           </div>
         </div>
@@ -139,13 +130,12 @@
           <div class="col-md-8 mx-auto text-center">
             <h6 class="text-danger">PRODUCTS</h6>
             <h1>What are you looking for ?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
           </div>
         </div>
         <div class="row g-3">
           <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+            <div class="project" onclick="location.href='product/Contractors'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/conductors_1.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Contactors</h4>
@@ -155,8 +145,8 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+            <div class="project" onclick="location.href='product/Starters'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/Starter.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Starters</h4>
@@ -165,9 +155,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+          <div class="col-lg-4 col-sm-6" >
+            <div class="project" onclick="location.href='product/Parts'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/Parts.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Parts</h4>
@@ -177,8 +167,8 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+            <div class="project" onclick="location.href='product/IsolationSwitch'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/Isolation_switch.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Isolation Switchers</h4>
@@ -188,8 +178,8 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+            <div class="project" onclick="location.href='product/Equipment'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/Equipement.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Equipement</h4>
@@ -199,8 +189,8 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="project">
-              <img src="img/conductors.jpg" alt="" />
+            <div class="project" onclick="location.href='product/ControlPower'" style="cursor:pointer;">
+              <img src="img/product/Main Menu Product/CPT.jpg" alt="" />
               <div class="overlay">
                 <div>
                   <h4 class="text-white">Control Power</h4>
@@ -259,18 +249,19 @@
           </div>
         </div>
 
-        <form action="" class="row g-3 justify-content-center">
+        <form action="/send-mail-contact" method="POST" class="row g-3 justify-content-center">
+          @csrf
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Full Name" />
+            <input type="text" class="form-control" placeholder="Full Name" name="fullName"/>
           </div>
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Enter E-mail" />
+            <input type="text" class="form-control" placeholder="Enter E-mail" name="email"/>
           </div>
           <div class="col-md-10">
-            <input type="text" class="form-control" placeholder="Enter Subject" />
+            <input type="text" class="form-control" placeholder="Enter Subject" name="subject"/>
           </div>
           <div class="col-md-10">
-            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message"></textarea>
+            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message" name="message"></textarea>
           </div>
           <div class="col-md-10 d-grid">
             <button class="btn btn-danger">Contact</button>

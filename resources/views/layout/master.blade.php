@@ -11,6 +11,7 @@
     
     @stack('styles')
     <title>PT. Pirngadi Teberau Karya</title>
+    <link rel="icon" type="image/gif/png" href="img/Logo PT.png">
 
     <meta name="description" content="With the broad market segment experience, wide range of client services and strength of the organization, PT Pirngadi Teberau Karya has strengthened its existence in the general contracting business in Indonesia. The company has successfully completed dozens of industrial, commercial and residential projects.">
     <meta name="keywords" content="Industrial products, IT services, Business">

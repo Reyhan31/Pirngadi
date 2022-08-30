@@ -64,7 +64,7 @@
       </section>
 <!-- Vimission -->
 
-    <!-- TEAM -->
+    {{-- <!-- TEAM -->
     <section>
       <div class="container-fluid bg-white">
         <div class="row mb-5">
@@ -126,5 +126,5 @@
         </div>
       </div>
     </section>
-    <!-- TEAM -->
+    <!-- TEAM --> --}}
 @endsection
