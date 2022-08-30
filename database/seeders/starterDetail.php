@@ -34,7 +34,7 @@ class starterDetail extends Seeder
                 "additionalKeywords" => "Rockwell, Centerline",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Starters/7000726-005-96.jpg"
             ],
             [
                 "name" => "Cutler-Hammer - 3 Amp - 120 Volt Starter",
@@ -55,7 +55,7 @@ class starterDetail extends Seeder
                 "additionalKeywords" => "Intelligent Technologies",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Starters/Ampgard_Starter-101912-1.jpg"
             ],
             [
                 "name" => "General Electric - 2957B104A Model - 700 Amp - 5000 Volt Starter",
@@ -76,7 +76,7 @@ class starterDetail extends Seeder
                 "additionalKeywords" => "",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Starters/CR194A117A2-090109-1.jpg"
             ],
         ]);
     }

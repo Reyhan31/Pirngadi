@@ -20,4 +20,10 @@ class FiturProductController extends Controller
         $brand = Product::distinct()->where([["category", $category],['brandName', 'NOT LIKE', ""]])->get(['brandName']);
         return view('fiturproduct', compact('product', 'brand'));
     }
+
+    public function search(Request $request){
+        $product = Product::where("name", "LIKE", "%".request('search')."%")->paginate(9)->withQueryString();
+        $brand = Product::distinct()->where([["name", "LIKE", "%".request('search')."%"],['brandName', 'NOT LIKE', ""]])->get(['brandName']);
+        return view('fiturproduct', compact('product', 'brand'));
+    }
 }

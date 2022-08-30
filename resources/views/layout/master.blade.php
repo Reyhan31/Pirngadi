@@ -79,8 +79,8 @@
               </li>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2 border rounded" type="search" placeholder="Search" aria-label="Search" />
+          <form method="GET" action="/search" class="d-flex">
+            <input class="form-control me-2 border rounded" type="search" placeholder="Search" aria-label="Search" name="search"/>
             <button class="btn btn-outline-danger rounded" type="submit">Search</button>
           </form>
 
