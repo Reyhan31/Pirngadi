@@ -118,12 +118,18 @@
                 <li><a href="#">Shipment</a></li>
               </ul>
             </div> --}}
-            <div class="col-lg-4">
+            <div class="col-lg-5">
               <h5 class="text-white">Contact</h5>
               <ul class="list-unstyled">
-                <li>Address: Jl. Jaksa No.7D, RT.1/RW.5, Kb. Sirih, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10340</li>
+                <li>Main Office: Bukit Golf Cibubur Riverside - Cluster Boulevard Terrace Blok BB7 No. 7, Gunung Putri, Kab. Bogor, Jawa Barat, Indonesia 16963</li>
+                <br>
+                <li>Branch Office: Jl. Pancasila DSN III, Paya Gambar, Batang Kuis, Kab. Deli Serdang, Sumatera Utara, Indonesia 20372</li>
+                <br>
                 <li>Email: corp.pirngaditeberaukarya@gmail.com</li>
-                <li>Phone: 021-3929196</li>
+                <br>
+                <li>Other Email: romiyan@pirngaditeberaukarya.web.id</li>
+                <br>
+                <li>Phone: +62-85811151135 or +62-82122167320</li>
               </ul>
             </div>
           </div>

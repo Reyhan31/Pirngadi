@@ -48,8 +48,9 @@
           <img src="img/bi_eye-fill.jpg" alt="" />
           <h5 class="mb-2 mt-4 text-white">Vision</h5>
           <p class="text-white">To become the leading and reliable general contractor with the support of our people, experience and core values: integrity, teamwork and customer service oriented mindset</p>
-          <h5 class="mb-1 mt-4 text-danger">Vision</h5>
-          <h5 class="mb-2 mt-4 text-danger">Vision</h5>
+          <br />
+          <br />
+          <h5 class="mb-1 mt-4 text-danger"></h5>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 mb-5">
