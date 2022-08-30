@@ -17,7 +17,7 @@
             </div>
             <div class="container overflow-hidden mx-auto">
                 <div class="detailImg row gx-5">
-                    <img src="{{$product->image}}" class="col-md-3 p-3 detailimg" id="detailImg1" alt="" onmouseleave="unpreviewImage(this)" onmouseover="previewImage(this)" onclick="previewImage(this)">
+                    <img src="{{ URL::asset($p->image); }}" class="col-md-3 p-3 detailimg" id="detailImg1" alt="" onmouseleave="unpreviewImage(this)" onmouseover="previewImage(this)" onclick="previewImage(this)">
                     {{-- <img src="img/contractor.png" class="col-md-3 p-3 detailimg" alt="detailImg2" onmouseleave="unpreviewImage(this)" onmouseover="previewImage(this)" onclick="previewImage(this)">
                     <img src="img/contractor.png" class="col-md-3 p-3 detailimg" alt="detailImg3" onmouseleave="unpreviewImage(this)" onmouseover="previewImage(this)" onclick="previewImage(this)">
                     <img src="img/contractor.png" class="col-md-3 p-3 detailimg" alt="detailImg4" onmouseleave="unpreviewImage(this)" onmouseover="previewImage(this)" onclick="previewImage(this)"> --}}

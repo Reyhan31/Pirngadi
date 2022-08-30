@@ -32,7 +32,7 @@
                         <div class="col">
                         <div class="container p-0">
                         <div class="align-items-center mx-auto row">
-                            <img src="img/contractor.png" class="col col-2" style="width: 70px;" alt="">
+                            <img src="{{ URL::asset($details["image"]); }}" class="col col-2" style="width: 70px;" alt="">
                             <p class="fw-bolder text-center col-9">{{$details["name"]}} - <a href="#">Part Number</a></p>
                         </div>
                         </div>
