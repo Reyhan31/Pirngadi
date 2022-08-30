@@ -245,7 +245,6 @@
           <div class="col-md-8 mx-auto text-center">
             <h6 class="text-danger">CONTACT</h6>
             <h1>Get In Touch</h1>
-            <p>Lorem ipsum dolor sit amet consectetur nisi necessitatibus repellat distinctio eveniet eaque fuga in cumque optio consectetur harum vitae debitis sapiente praesentium aperiam aut</p>
           </div>
         </div>
 
