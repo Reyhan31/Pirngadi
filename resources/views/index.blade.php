@@ -49,7 +49,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-8 mx-auto text-center">
-            <h6 class="text-danger">SERIVCES</h6>
+            <h6 class="text-danger">SERVICES</h6>
             <h1>IT Services</h1>
           </div>
         </div>

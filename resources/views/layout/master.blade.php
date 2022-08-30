@@ -103,13 +103,13 @@
             <div class="col-lg-2">
               <h5 class="text-white">Brand</h5>
               <ul class="list-unstyled">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/#serviceshome">Services</a></li>
+                <li><a href="/#Productshome">Products</a></li>
+                <li><a href="/contactus">Contact</a></li>
               </ul>
             </div>
-            <div class="col-lg-2">
+            {{-- <div class="col-lg-2">
               <h5 class="text-white">More</h5>
               <ul class="list-unstyled">
                 <li><a href="#">FAQ's</a></li>
@@ -117,7 +117,7 @@
                 <li><a href="#">Warranty</a></li>
                 <li><a href="#">Shipment</a></li>
               </ul>
-            </div>
+            </div> --}}
             <div class="col-lg-4">
               <h5 class="text-white">Contact</h5>
               <ul class="list-unstyled">
