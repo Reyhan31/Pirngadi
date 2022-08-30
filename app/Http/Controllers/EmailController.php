@@ -22,7 +22,7 @@ class EmailController extends Controller
                 'cart' => session()->get('cart'),
             ];
 
-        if(!$details['firstName'] || !$details['lastName'] || !$details['email'] || !$details['phoneNumber'] || !$details['companyName']){
+        if(!$details['firstName'] || !$details['lastName'] || !$details['email'] || !$details['phoneNumber']){
             return back()->with('Error', 'Please complete the details');
         };
         
