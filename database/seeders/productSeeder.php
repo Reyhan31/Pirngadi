@@ -74,7 +74,7 @@ class productSeeder extends Seeder
                 "controlVoltage" => "",
                 "desc" => "",
                 "additionalKeywords" => "",
-                "price" => "",
+                "price" => "* please call or request quote",
                 "shippingWeight" => "",
                 "image" => ""
             ],
@@ -137,7 +137,7 @@ class productSeeder extends Seeder
                 "controlVoltage" => "",
                 "desc" => '',
                 "additionalKeywords" => "",
-                "price" => "",
+                "price" => "* please call or request quote",
                 "shippingWeight" => "",
                 "image" => ""
             ],
@@ -200,7 +200,7 @@ class productSeeder extends Seeder
                 "controlVoltage" => "",
                 "desc" => '',
                 "additionalKeywords" => "",
-                "price" => "",
+                "price" => "* please call or request quote",
                 "shippingWeight" => "",
                 "image" => ""
             ],
@@ -1189,7 +1189,7 @@ class productSeeder extends Seeder
                 "additionalKeywords" => "456D, 2-4470-4224-1, 14-514-449, 456D",
                 "price" => "* please call or request quote",
                 "shippingWeight" => "",
-                "image" => ""
+                "image" => "img/product/Contactors/456-D-082114-2_1.jpg"
             ],
             [
                 "name" => "SL-50 - 200 Amp",

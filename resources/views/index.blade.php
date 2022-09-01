@@ -23,7 +23,10 @@
 
     <!-- Aboutus -->
     <section class="row mt-5 w-100 py-0 bg-light" id="aboutushome">
-      <div class="col-lg-6 col-img"></div>
+      <div class="col-lg-6 d-flex align-items-center">
+        <img src="{{ URL::asset('img/Logo.png'); }}" alt="Logo" 
+          class="d-flex align-items-center" />
+      </div>
       <div class="col-lg-6 py-5">
         <div class="container">
           <div class="row mt-5">
@@ -260,7 +263,7 @@
             <input type="text" class="form-control" placeholder="Enter Subject" name="subject"/>
           </div>
           <div class="col-md-10">
-            <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Enter Message" name="message"></textarea>
+            <textarea id="" cols="30" rows="5" class="form-control" placeholder="Enter Message" name="message"></textarea>
           </div>
           <div class="col-md-10 d-grid">
             <button class="btn btn-danger">Contact</button>

@@ -27,7 +27,7 @@ class EmailController extends Controller
         };
         
             try {
-                \Mail::to('romiyan@pirngaditeberaukarya.web.id')->send(new \App\Mail\sendMail($details));
+                \Mail::to('romiyan@pirngaditeberaukarya.com')->send(new \App\Mail\sendMail($details));
                 \Mail::to('corp.pirngaditeberaukarya@gmail.com')->send(new \App\Mail\sendMail($details));
                 session()->forget('cart');
                 // dd("Success");
@@ -46,7 +46,7 @@ class EmailController extends Controller
             'message' => $request->message,
         ];
 
-        \Mail::to('romiyan@pirngaditeberaukarya.web.id')->send(new \App\Mail\serviceMail($details));
+        \Mail::to('romiyan@pirngaditeberaukarya.com')->send(new \App\Mail\serviceMail($details));
         \Mail::to('corp.pirngaditeberaukarya@gmail.com')->send(new \App\Mail\serviceMail($details));
         return back()->with('success', 'Email has been sent!');
     }

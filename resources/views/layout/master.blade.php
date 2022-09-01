@@ -127,7 +127,7 @@
                 <br>
                 <li>Email: corp.pirngaditeberaukarya@gmail.com</li>
                 <br>
-                <li>Other Email: romiyan@pirngaditeberaukarya.web.id</li>
+                <li>Other Email: romiyan@pirngaditeberaukarya.com</li>
                 <br>
                 <li>Phone: +62-85811151135 or +62-82122167320</li>
               </ul>

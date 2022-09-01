@@ -57,8 +57,7 @@
     <!-- maps -->
 <div class="container-fluid">
   <div class="row">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6035842367023!2d106.82757295111739!3d-6.183775995501212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f431d50f17f3%3A0x8c6e9994d3fcfbee!2sJln%20Jaksa%20No.7%2C%20RT.1%2FRW.5%2C%20Kebon%20Sirih%2C%20Menteng%2C%20Central%20Jakarta%20City%2C%20Jakarta%2010340!5e0!3m2!1sen!2sid!4v1646967148609!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.7496375368364!2d106.90275901493558!3d-6.426203664631965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ead16ce1d68f%3A0xe8984a319ef12f97!2sBukit%20Golf%20Cibubur%20Riverside%20-%20Cluster%20Boulevard%20Terrace!5e0!3m2!1sen!2sid!4v1662020034904!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </div>
 </div>
     <!-- maps end -->
